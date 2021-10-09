@@ -5,11 +5,22 @@
  "version": "0.2.0",
  "configurations": [
   {
-   "type": "pwa-chrome",
+   "type": "node",
    "request": "launch",
-   "name": "Launch Chrome against localhost",
-   "url": "http://localhost:3000",
-   "webRoot": "${workspaceFolder}"
+   "name": "Index1",
+   "program": "${workspaceFolder}/index1.js"
+  },
+  {
+   "type": "node",
+   "request": "launch",
+   "name": "Index2",
+   "program": "${workspaceFolder}/index2.js"
+  },
+  {
+   "type": "node",
+   "request": "launch",
+   "name": "Index3",
+   "program": "${workspaceFolder}/index3.js"
   }
  ]
 }
